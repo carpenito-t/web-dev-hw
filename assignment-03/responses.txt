@@ -1,1 +1,3 @@
 This is a test
+The advantage to using a text editor is to make work faster and at the same time be able to identify problems quicker.
+The advantage to using a relative URL is that they are shorter and more convenient, but they can only reference files in the same path.
