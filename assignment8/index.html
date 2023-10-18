@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta data, not shown to site visiters-->
+    <meta charset="UTF-8">
+    <meta name="author" content="tony carpenito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublime Pawnshop</title>
+    <!-- Style additions to be used in div, class and span-->
+    <style>
+        body {
+            background-color: rgb(43, 222, 23);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+
+        .container {    
+            background-color: rgb(237, 219, 13);
+            width: 600;
+            margin: auto;
+            padding: 20px;
+            border: 1pt solid rgb(218, 16, 16);
+        }
+
+        .lyrics {
+            background-color: rgb(145, 250, 135);
+            color: rgb(216, 231, 9);
+            font-size: small;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+    </style>
+</head>
+<!-- all style elements inhereted from the body style assigned above-->
+<body>
+    <!-- This is the album cover for Sublime Pawnshop-->
+    <div id="album cover" class="container">
+        <h1>Pawnshop</h1>
+        <h2>Sublime</h2>
+        <img src="images/sublime.jpg" height="500" width="" alt="Sublime Album">
+    </div>
+    <!-- This is the audio track saved localy in different media types-->
+    <div id="audio" class="container">
+        <h1>Audio</h1>
+        <audio preload controls>
+            <source src="./media/thisIsWhy.mp3" type="audo/mpeg" />
+            <source src="./media/thisIsWhy.ogg" type="audio/ogg" codec="vorbis" />
+            <source src="./media/thisIsWhy.wav" type="audio/wav">
+            <p> This is the song This is Why We Fight, by the Decemberists</p>
+            <p> Your browser does not support this audio</p>
+        </audio>
+    </div>
+    <!-- this division is a music video embedded from Youtube-->
+    <div id="video" class="container">
+        <h1>Music Video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oLSOzcEQjiE?si=AgKnd89Z5UHCpIkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <!-- this division uses the lyric class-->
+    <div id="lyrics" class="lyrics">
+        <h1>Lyrics</h1>
+        <p>Come the war<br />
+        Come the avarice<br />
+        Come the war<br />
+        Come hell
+        </p>
+        <p>Come attrition<br />
+        Come the reek of bones<br />
+        Come attrition<br />
+        Come hell
+        </p>
+        <p>This is why<br />
+        Why we fight<br />
+        Why we lie awake<br />
+        And this is why<br />
+        This is why we fight
+        </p>
+        <p>When we die<br />
+        We will die<br />
+        With our arms unbound
+        </p>
+        <p>And this is why<br />
+        This is why<br />
+        Why we fight
+        </p>
+        <p>Come hell<br />
+        Bride of quiet<br />
+        Bride of all unquiet things<br />
+        Bride of quiet<br />
+        Bride of hell
+        </p>
+        <p>Come the archers<br />
+        Come the infantry<br />
+        Come the archers<br />
+        Of hell
+        </p>
+        <p>This is why<br />
+        Why we fight<br />
+        Why we lie awake<br />
+        This is why<br />
+        This is why we fight<br />
+        And when we die<br />
+        We will die<br />
+        With our arms unbound<br />
+        And this is why<br />
+        This is why we fight<br />
+        Come hell<br />
+        Come hell
+        </p>
+        <p>This is why<br />
+        Why we fight<br />
+        Why we lie awake<br />
+        This is why<br />
+        This is why we fight<br />
+        When we die<br />
+        We will die with our arms unbound<br />
+        And this is why<br />
+        This is why we fight
+        </p>
+        <p>So come to me<br />
+        Come to me now<br />
+        Lay your arms around me<br />
+        And this is why<br />
+        This is why<br />
+        We fight
+        </p>
+        <p>Come hell<br />
+        Come hell<br />
+        Come hell<br />
+        Come hell
+        </p>
+    </div>
+    <div id="copyright" class="container">
+        <h1>copyright &copy;</h1>
+        <p>I do not own any of this material is is copyright of the band The Decemberists</p>
+    </div>
+</body>
+</html>
