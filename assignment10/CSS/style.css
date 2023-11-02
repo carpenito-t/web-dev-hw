@@ -30,10 +30,11 @@ div.align{
 }
 
 #mainheader{
-    position: center;
+    text-align: center;
+    position: relative;
     left: 20px;
     top:5px;
-    color: darkslategray;
+    color: gold;
     opacity: .75;
     font-size: 60px;
 }
