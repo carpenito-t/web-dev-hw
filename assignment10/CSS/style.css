@@ -4,14 +4,14 @@ body{
 
 .main-container {
     
-    /* Draw a solid border make it maroon */
+    /* Draw a solid border make it black */
     border-style: solid;
     border-width: 20px;
     border-color: black;
     /*Add space between the border and its inside elements. */
     padding: 10px;
-    /* Color the background dark grey. */
-    background : lightgrey;
+    /* Color the background red. */
+    background : red;
     width: 75%;
     margin: auto;
 }
