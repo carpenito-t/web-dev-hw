@@ -27,6 +27,7 @@ div.align{
     padding: 50px;
     border-bottom: 1px dotted black;
     border-spacing: inherit;
+    color: bisque;
 }
 
 #mainheader{
