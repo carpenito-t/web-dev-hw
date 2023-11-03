@@ -3,7 +3,7 @@ body{
 }
 .main-container {
     
-    /* Draw a solid border make it black */
+    /* Draw a solid bodrder make it black */
     border-style: solid;
     border-width: 20px;
     border-color: black;
