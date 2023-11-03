@@ -25,8 +25,9 @@ div.align{
     margin: auto;
     width:70%;
     padding: 50px;
-    border-style: 1px dotted black;
+    border-style: 1px solid;
     border-spacing: inherit;
+    border-color: aquamarine;
     color: bisque;
 }
 
