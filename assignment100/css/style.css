@@ -2,9 +2,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .main-container {
-    background: red;
-    
-   
+    background: red; 
 }
 div.align{
     text-align: center;
