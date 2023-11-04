@@ -2,17 +2,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .main-container {
+    background: red;
     
-    /* Draw a solid bodrder make it black */
-    border-style: solid;
-    border-width: 20px;
-    border-color: black;
-    /*Add space between the border and its inside elements. */
-    padding: 10px;
-    /* Color the background red. */
-    background : red;
-    width: 75%;
-    margin: auto;
+   
 }
 div.align{
     text-align: center;
