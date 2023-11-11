@@ -6,30 +6,14 @@
     border-color: #8f8b8b #383636 #383636 
 }
 
-
 #hover:hover {
     color: blueviolet;
     font-style: italic;
 }
 
-#uncanny {
-  font-weight: 800;
+/*Add @import code */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
 
+*{
+    font-family: 'Noto Sans Linear B', sans-serif;
 }
-
-#uncanny:hover {
-    background: url("../images/unCannyValley.png");
-    float: right;
-    display: block;
-    width: 500px;
-    height: 400px;
-}
-
-#uppercase {
-    text-transform: uppercase;
-}
-
-img{
-    padding: 20px 20px;
-}
-
