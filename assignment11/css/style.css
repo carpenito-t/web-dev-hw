@@ -1,0 +1,35 @@
+#hover{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(28,205,202);
+    border-color: #8f8b8b #383636 #383636 
+}
+
+
+#hover:hover {
+    color: blueviolet;
+    font-style: italic;
+}
+
+#uncanny {
+  font-weight: 800;
+
+}
+
+#uncanny:hover {
+    background: url("../images/unCannyValley.png");
+    float: right;
+    display: block;
+    width: 500px;
+    height: 400px;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+img{
+    padding: 20px 20px;
+}
+
