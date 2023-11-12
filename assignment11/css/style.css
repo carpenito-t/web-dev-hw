@@ -12,8 +12,7 @@
 }
 
 /*Add @import code */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 *{
-    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
