@@ -1,0 +1,26 @@
+.parent-container {
+    width: 30%;
+    min-width: 400px;
+    max-width: 600px;
+    height: 400px;
+    background-color: purple;
+    color: wheat;
+    border-width: 1em;
+    border-style: double;
+    border-color: greenyellow;
+    padding: 10px;
+}
+
+ .inner-box {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue ;
+    border-width: 7px;
+    border-style:dotted;
+    border-color:aquamarine;
+    margin-top: 10px;
+    }
+
+.overflow-scroll {
+    overflow: scroll;
+    }
