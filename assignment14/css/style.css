@@ -1,0 +1,9 @@
+#myCanvas {
+    border: 2px pink;
+  }
+  
+  #github {
+    display: none;
+    /*this makes sure the image in the html doesn't appear */
+  }
+  
